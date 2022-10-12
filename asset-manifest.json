@@ -1,16 +1,29 @@
 {
   "files": {
-    "main.css": "/frispes/static/css/main.073c9b0a.css",
-    "main.js": "/frispes/static/js/main.32c52233.js",
-    "static/js/787.c98b9dea.chunk.js": "/frispes/static/js/787.c98b9dea.chunk.js",
-    "static/media/logo.svg": "/frispes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/frispes/static/css/main.9accbfdb.css",
+    "main.js": "/frispes/static/js/main.9605914a.js",
+    "static/media/intro-slider-3-min.jpg": "/frispes/static/media/intro-slider-3-min.721a602b3e6f177fc59d.jpg",
+    "static/media/intro-slider-2-min.jpg": "/frispes/static/media/intro-slider-2-min.5eceeec79bcabc40d10a.jpg",
+    "static/media/intro-slider-4-min.jpg": "/frispes/static/media/intro-slider-4-min.19a2a53cb18f4bd3d4c7.jpg",
+    "static/media/intro-slider-1.jpg": "/frispes/static/media/intro-slider-1.c9284c35885959b57e38.jpg",
+    "static/media/spaces-slider-1.jpg": "/frispes/static/media/spaces-slider-1.6524d0a7c2cbee5f9e38.jpg",
+    "static/media/spaces-slider-3.jpg": "/frispes/static/media/spaces-slider-3.43500a39c9472d6f67a3.jpg",
+    "static/media/spaces-slider-7-min.jpg": "/frispes/static/media/spaces-slider-7-min.02d801bd94d79edff63f.jpg",
+    "static/media/spaces-slider-2-min.jpg": "/frispes/static/media/spaces-slider-2-min.512ac4b348f3990e03ad.jpg",
+    "static/media/spaces-slider-5-min.jpg": "/frispes/static/media/spaces-slider-5-min.6a6089987cfd6d8d3d95.jpg",
+    "static/media/spaces-slider-9-min.jpg": "/frispes/static/media/spaces-slider-9-min.9c7a5e0c08634a5336c5.jpg",
+    "static/media/spaces-slider-8-min.jpg": "/frispes/static/media/spaces-slider-8-min.b88fee99009c314f6073.jpg",
+    "static/media/spaces-slider-12-min.jpg": "/frispes/static/media/spaces-slider-12-min.c516922f37904b0206c7.jpg",
+    "static/media/spaces-slider-4-min.jpg": "/frispes/static/media/spaces-slider-4-min.bc547e9d1e9100f2a93b.jpg",
+    "static/media/spaces-slider-11-min.jpg": "/frispes/static/media/spaces-slider-11-min.615438a3f40beaece6c2.jpg",
+    "static/media/spaces-slider-6-min.jpg": "/frispes/static/media/spaces-slider-6-min.8cfb973663c5b8641dc2.jpg",
+    "static/media/spaces-slider-10-min.jpg": "/frispes/static/media/spaces-slider-10-min.cbfa66f85a3585d8aa9f.jpg",
     "index.html": "/frispes/index.html",
-    "main.073c9b0a.css.map": "/frispes/static/css/main.073c9b0a.css.map",
-    "main.32c52233.js.map": "/frispes/static/js/main.32c52233.js.map",
-    "787.c98b9dea.chunk.js.map": "/frispes/static/js/787.c98b9dea.chunk.js.map"
+    "main.9accbfdb.css.map": "/frispes/static/css/main.9accbfdb.css.map",
+    "main.9605914a.js.map": "/frispes/static/js/main.9605914a.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.32c52233.js"
+    "static/css/main.9accbfdb.css",
+    "static/js/main.9605914a.js"
   ]
 }
