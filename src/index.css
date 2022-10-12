@@ -17,6 +17,14 @@ code {
   color: #FF5722;
 }
 
+.swiper-pagination {
+  top: 100% !important;
+}
+
+.swiper-pagination-progressbar {
+  background: #dfdfdf !important;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

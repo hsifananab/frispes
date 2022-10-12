@@ -1,11 +1,16 @@
 import React from 'react';
+import { forwardRef } from 'react';
+import { motion } from 'framer-motion';
 
-const SectionTitle = ({ children }) => {
+export const SectionTitle = forwardRef(({ children }, ref) => {
   return (
-    <h2 className="font-lora font-bold text-[40px] leading-[51px] text-color-primary">
+    <h2
+      className="font-lora font-bold text-[40px] leading-[51px] text-color-primary"
+      ref={ref}
+    >
       {children}
     </h2>
   );
-};
+});
 
-export default SectionTitle;
+export const MSectionTitle = motion(SectionTitle);

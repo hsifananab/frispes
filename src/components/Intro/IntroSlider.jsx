@@ -1,13 +1,19 @@
 import React from 'react';
+import { forwardRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Keyboard } from 'swiper/core';
+import { EffectCreative } from 'swiper';
 import { Pagination } from 'swiper';
+import { motion } from 'framer-motion';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 import { introSlides } from '../../data/data';
 
-const IntroSlider = () => {
+SwiperCore.use([Keyboard]);
+
+export const IntroSlider = forwardRef((props, ref) => {
   const pagination = {
     clickable: true,
     renderBullet: function (index, className) {
@@ -17,14 +23,26 @@ const IntroSlider = () => {
 
   return (
     <Swiper
-      modules={[Pagination]}
+      ref={ref}
+      modules={[Pagination, EffectCreative]}
       spaceBetween={50}
       slidesPerView={1}
-      autoplay
       pagination={pagination}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={swiper => console.log(swiper)}
+      keyboard={true}
+      grabCursor={true}
+      loop={true}
+      effect={'creative'}
+      creativeEffect={{
+        prev: {
+          shadow: true,
+          translate: [0, 0, 0],
+        },
+        next: {
+          translate: ['100%', 0, 0],
+        },
+      }}
       style={{
+        '--swiper-pagination-width': '',
         '--swiper-pagination-color': '#FF5722',
         '--swiper-pagination-bullet-inactive-color': '#ffffff',
         '--swiper-pagination-bullet-inactive-opacity': '0.5',
@@ -37,13 +55,8 @@ const IntroSlider = () => {
           </div>
         </SwiperSlide>
       ))}
-      {/* <SwiperSlide>Slide 1</SwiperSlide>
-      <SwiperSlide>Slide 2</SwiperSlide>
-      <SwiperSlide>Slide 3</SwiperSlide>
-      <SwiperSlide>Slide 4</SwiperSlide>
-      ... */}
     </Swiper>
   );
-};
+});
 
-export default IntroSlider;
+export const MIntroSlider = motion(IntroSlider);

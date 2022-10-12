@@ -5,6 +5,7 @@ const stateContext = createContext();
 export const ContextProvider = ({ children }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const [activeNavIndex, setActiveNavIndex] = useState(0);
+  const [isHoveredCard, setIsHoveredCard] = useState(false);
 
   const changeNav = () => {
     if (window.scrollY >= 30) {
@@ -18,6 +19,8 @@ export const ContextProvider = ({ children }) => {
     window.addEventListener('scroll', changeNav);
   }, []);
 
+  const onHover = () => setIsHoveredCard(!isHoveredCard);
+
   return (
     <stateContext.Provider
       value={{
@@ -26,6 +29,9 @@ export const ContextProvider = ({ children }) => {
         changeNav,
         activeNavIndex,
         setActiveNavIndex,
+        isHoveredCard,
+        setIsHoveredCard,
+        onHover,
       }}
     >
       {children}
