@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frispes/static/css/main.9accbfdb.css",
-    "main.js": "/frispes/static/js/main.9605914a.js",
+    "main.css": "/frispes/static/css/main.02f31759.css",
+    "main.js": "/frispes/static/js/main.d0bdb9ac.js",
     "static/media/intro-slider-3-min.jpg": "/frispes/static/media/intro-slider-3-min.721a602b3e6f177fc59d.jpg",
     "static/media/intro-slider-2-min.jpg": "/frispes/static/media/intro-slider-2-min.5eceeec79bcabc40d10a.jpg",
     "static/media/intro-slider-4-min.jpg": "/frispes/static/media/intro-slider-4-min.19a2a53cb18f4bd3d4c7.jpg",
@@ -19,11 +19,11 @@
     "static/media/spaces-slider-6-min.jpg": "/frispes/static/media/spaces-slider-6-min.8cfb973663c5b8641dc2.jpg",
     "static/media/spaces-slider-10-min.jpg": "/frispes/static/media/spaces-slider-10-min.cbfa66f85a3585d8aa9f.jpg",
     "index.html": "/frispes/index.html",
-    "main.9accbfdb.css.map": "/frispes/static/css/main.9accbfdb.css.map",
-    "main.9605914a.js.map": "/frispes/static/js/main.9605914a.js.map"
+    "main.02f31759.css.map": "/frispes/static/css/main.02f31759.css.map",
+    "main.d0bdb9ac.js.map": "/frispes/static/js/main.d0bdb9ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.9accbfdb.css",
-    "static/js/main.9605914a.js"
+    "static/css/main.02f31759.css",
+    "static/js/main.d0bdb9ac.js"
   ]
 }
